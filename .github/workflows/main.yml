@@ -41,7 +41,7 @@ jobs:
         
         
       - name: Push
-        run: git push origin qa
+        run: git push qa
         
   deploy_on_qa:
     name: Deploy on QA
