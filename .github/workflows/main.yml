@@ -33,7 +33,7 @@ jobs:
         run: npm run build
         
       - name: Push
-        run: git push origin qa
+        run: git push origin dev
         
   deploy_on_qa:
     name: Deploy on QA
