@@ -32,9 +32,6 @@ jobs:
       - name: Build
         run: npm run build
         
-      - name: Push
-        run: git push origin qa
-        
   deploy_on_qa:
     name: Deploy on QA
     runs-on: ubuntu-latest
