@@ -31,14 +31,6 @@ jobs:
       
       - name: Build
         run: npm run build
-      
-      - name: add
-        run: git add .
-        
-        
-      - name: commit
-        run: git commit -m "cambio en dev"
-        
         
       - name: Push
         run: git push qa
